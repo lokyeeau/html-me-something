@@ -1,0 +1,109 @@
+
+#header {
+    position: relative;
+    top: -1em;
+    background-color: teal;
+    padding: .3em;
+}
+
+#navbar {
+	top:2em;
+	left:30%;
+}
+
+nav p a{
+    display: inline-block;
+    padding: 1em;
+    font-family: Avenir, sans-serif;
+    font-weight: strong;
+    font-size: 1.5em;
+    border: 2px #ffffff;
+    background-color: #808080;
+    position: relative;
+}
+
+#about-header {
+    font-family: Avenir, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+div p {
+    text-align: justify;
+    display: inline-block;
+    margin: 1em;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: Lobster, cursive;
+    font-size: 4em;
+    color: white;
+    text-indent: .75em;
+    text-align: left;
+}
+
+th {
+    background-color: teal;
+    padding: .75em;
+    color: white;
+}
+
+#about h2 {
+    text-align: left;
+    text-indent: 1.5em;
+}
+
+#about div {
+    text-align: justify;
+    line-height: 125%;
+    margin: 2em;
+    display: block;
+}
+#about img {
+    height: 30em;
+    margin: 1em;
+}
+
+.headers {
+    font-family: Avenir, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+table {
+    margin: 2em;
+    display: inline;
+}
+
+#art img {
+    height: 33em;
+}
+
+#photo img {
+    width: 25em;
+}
+
+#design img {
+    width: 25em;
+}
+
+figcaption {
+    font-family: serif;
+    font-weight: lighter;
+    font-size: .875em;
+    text-align: justify;
+}
