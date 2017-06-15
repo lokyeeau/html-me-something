@@ -17,7 +17,7 @@ nav p a{
     font-family: Avenir, sans-serif;
     font-weight: strong;
     font-size: 1.5em;
-    border: 2px #ffffff;
+    border-style: 2px #ffffff;
     background-color: #808080;
     position: relative;
 }
@@ -42,6 +42,10 @@ a:link {
 a:visited {
     text-decoration: none;
     color: white;
+}
+
+a:hover {
+    color: #ffff99;
 }
 
 body {
@@ -106,4 +110,23 @@ figcaption {
     font-weight: lighter;
     font-size: .875em;
     text-align: justify;
+}
+
+#contact {
+    display: inline-block;
+    margin: 3em;
+    padding: 1em;
+    font-family: Avenir, sans-serif;
+    font-size: 1.5em;
+    border-style: 2px dashed #ffffff;
+    background-color: #f08080;
+    border-radius: 1em;
+    text-align: center;
+    align-content: center;
+}
+
+footer p {
+    display: inline;
+    position: relative;
+    padding: 1em;
 }
